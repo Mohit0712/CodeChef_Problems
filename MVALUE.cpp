@@ -1,8 +1,5 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
-
 const int maxt = 10;
 const int maxn = 1e5;
 const int maxv = 1e9;
@@ -24,4 +21,5 @@ int main()
         ans = max(ans, (v[n - 2] + 1) * (v[n - 1] - 1) + 1);
         cout << ans << endl;
     }
+    return 0;
 } 
